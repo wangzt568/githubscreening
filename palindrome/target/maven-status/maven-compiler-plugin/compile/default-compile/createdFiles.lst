@@ -1,0 +1,6 @@
+com\palindrome\service\PalindromeService.class
+com\palindrome\model\Palindrome.class
+com\palindrome\repository\PalindromeRepository.class
+com\palindrome\utils\LongestPalindrome.class
+com\palindrome\PalindromeApplication.class
+com\palindrome\controller\PalindromeController.class
