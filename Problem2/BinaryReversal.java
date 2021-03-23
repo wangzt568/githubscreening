@@ -1,6 +1,11 @@
 public class BinaryReversal {
     public static void main(String[] args) {
-        System.out.println(reverseBinaryStr("47"));
+        String[] testCases = new String[]{
+            "47", "1", "16", "457", "0", "10"
+        };
+        for(String testString : testCases) {
+            System.out.println(testString + ": " + reverseBinaryStr(testString));
+        }
     }
 
     private static String reverseBinaryStr(String str) {
