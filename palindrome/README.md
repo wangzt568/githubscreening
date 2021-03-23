@@ -33,63 +33,54 @@ Make a get request to "http://localhost:8080/v1/palindrome/{id}"
 ## Test Cases
 
 1. 	input: babad  
-   
 	response: 
-
-    ```josn
+```josn
     {
     "id": "7ced03b2-2681-4d39-a4b2-d2cc6a64f936",
-"string": "babad",
+    "string": "babad",
 	"palindrome": "bab"
 }
-   ```
-   
+```
+
 2. input: abcdeffedcbeee
    response: 
-
-   ```json
+```json
    {
    "id": "4d9c48c3-90f0-40e7-ac9c-8c326f954637",
    "string": "abcdeffedcbeee",
    "palindrome": "bcdeffedcb"
    }
-   ```
+```
 
 3. input: rtyuizxcxzxcxczui
-
    response:
-
-   ```json
+```json
    {
        "id": "3c248204-bfc9-4f1c-af48-3633a10f1d67",
        "string": "rtyuizxcxzxcxczui",
        "palindrome": "xcxzxcx"
    }
-   ```
+```
 
 4. input: xyzxyzxyzxyz
-
    response: 
-
-   ```json
+```json
    {
        "id": "61d42e0c-f695-44ae-8b86-e4d12c734790",
        "string": "xyzxyzxyzxyz",
        "palindrome": "x"
    }
-   ```
+```
 
 5. input: cbbd
-
    response: 
-
-   ```json
+```json
    {
        "id": "30082279-49e9-4275-aa47-5954352a2c43",
        "string": "cbbd",
        "palindrome": "bb"
    }
-   ```
+```
 
    
 
