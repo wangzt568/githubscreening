@@ -34,17 +34,17 @@ Make a get request to "http://localhost:8080/v1/palindrome/{id}"
 
 1. 	input: babad  
    
-2. response: 
+	response: 
 
-   ```josn
-   {
-   "id": "7ced03b2-2681-4d39-a4b2-d2cc6a64f936",
-   "string": "babad",
-   "palindrome": "bab"
-   }
+    ```josn
+    {
+    "id": "7ced03b2-2681-4d39-a4b2-d2cc6a64f936",
+"string": "babad",
+	"palindrome": "bab"
+}
    ```
-
-3. input: abcdeffedcbeee
+   
+2. input: abcdeffedcbeee
    response: 
 
    ```json
